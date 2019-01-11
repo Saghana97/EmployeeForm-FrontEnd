@@ -1,0 +1,79 @@
+.outer-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input{
+    padding: 5px 0;
+    margin: 5px;    
+}
+
+.input1{
+    width: 180px;
+    padding: 5px 0;
+    margin: 5px;    
+}
+
+
+.form{   
+    display: flex;    
+    flex-direction: column;
+    align-self: center;
+    padding: 30px 40px;
+    background: #F3F4F5;
+    margin-top: 20px;
+    border-radius: 8px;
+    -webkit-box-shadow: 6px 6px 18px 1px rgba(0,0,0,0.51);
+    -moz-box-shadow: 6px 6px 18px 1px rgba(0,0,0,0.51);
+    box-shadow: 6px 6px 18px 1px rgba(0,0,0,0.51);
+}
+
+.button{
+    padding: 8px 20px;
+    background: #ED565D ;
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    margin: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+
+.left{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.right{
+    justify-content: flex;
+    display: flex;
+}
+
+
+
+.element{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.docs{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    min-height: 25vh;
+}
+.aadhar{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    min-height: 5vh;
+    font-weight: 500;
+    font-size: 18px; 
+}
